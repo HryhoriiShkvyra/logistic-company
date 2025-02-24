@@ -1,0 +1,48 @@
+.navbar {
+  padding: 15px 50px;
+  background-color: var(--red-500);
+}
+
+.navbar-parts {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.navbar-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.navbar-part:first-child .logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+
+  font-size: 15px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.navbar-btn:hover {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.navbar-btn.login,
+.registration,
+.partner {
+  font-size: 15px;
+  color: var(--red-100);
+}
