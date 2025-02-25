@@ -1,0 +1,10 @@
+.footer-wrapper {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 25px 0;
+}
+
+.footer-text:last-child {
+  width: fit-content;
+  /* border-bottom: 1px solid; */
+}
