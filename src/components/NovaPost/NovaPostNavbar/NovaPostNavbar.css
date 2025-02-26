@@ -1,0 +1,60 @@
+.nova-post-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 40px;
+
+  background-color: var(--red-250);
+}
+
+.nova-post-navbar-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  gap: 15px;
+}
+
+.nova-post-navbar-block:nth-child(2) {
+  justify-content: center;
+}
+
+.nova-post-navbar-block:first-child {
+  justify-content: flex-start;
+}
+
+.nova-post-navbar-block:last-child {
+  justify-content: flex-end;
+}
+
+.nova-post-navbar-btn {
+  color: grey;
+  transition: ease 0.3s;
+
+  cursor: pointer;
+}
+
+.nova-post-navbar-btn:hover {
+  color: var(--deep-red);
+  transition: ease 0.3s;
+
+  cursor: pointer;
+}
+
+.nova-post-navbar-btn-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  color: grey;
+
+  border: none;
+  outline: none;
+}
+
+.nova-post-navbar-btn-left-border {
+  padding-right: 25px;
+  border-right: 1px solid;
+}

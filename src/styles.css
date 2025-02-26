@@ -107,6 +107,7 @@ q {
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -160,6 +161,9 @@ h4 {
   /* Soft Pink */
 
   --red-200: #ffe4e4;
+
+  /* Mid Coral */
+  --red-250: #ffc9c9;
 
   /* Light Coral */
 
