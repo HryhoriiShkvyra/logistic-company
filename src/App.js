@@ -1,17 +1,17 @@
 import "./styles.css";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 // import Index from "./components/Index/Index";
-import NovaPostIndex from "./components/NovaPost/NovaPostIndex/NovaPostIndex";
-import NovaPostFooter from "./components/NovaPost/NovaPostFooter/NovaPostFooter";
-import NovaPostNavbar from "./components/NovaPost/NovaPostNavbar/NovaPostNavbar";
+import LogisticCompanyIndex from "./components/LogisticCompany/LogisticCompanyIndex/LogisticCompanyIndex";
+import LogisticCompanyFooter from "./components/LogisticCompany/LogisticCompanyFooter/LogisticCompanyFooter";
+import LogisticCompanyNavbar from "./components/LogisticCompany/LogisticCompanyNavbar/LogisticCompanyNavbar";
 
 function App() {
   const Layout = () => {
     return (
       <div className="app">
-        <NovaPostNavbar />
+        <LogisticCompanyNavbar />
         <Outlet />
-        <NovaPostFooter />
+        <LogisticCompanyFooter />
       </div>
     );
   };
@@ -23,7 +23,7 @@ function App() {
       children: [
         {
           path: "/",
-          element: <NovaPostIndex />,
+          element: <LogisticCompanyIndex />,
         },
         // {
         //   path: "/",

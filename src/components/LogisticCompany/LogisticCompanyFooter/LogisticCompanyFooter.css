@@ -1,0 +1,195 @@
+.footer-rows {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  border-bottom: 1px solid;
+}
+
+.footer-cols-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-cols {
+  display: flex;
+  flex-direction: column;
+  width: 25.1%;
+  gap: 10px;
+  padding: 50px;
+}
+
+.footer-cols:nth-child(4),
+.footer-cols:nth-child(5),
+.footer-cols:nth-child(6) {
+  padding-top: 0;
+}
+
+.footer-col-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--red-500);
+  padding-bottom: 10px;
+}
+
+.footer-col-link {
+  color: black;
+  transition: ease 0.5s;
+}
+
+.footer-col-link:hover {
+  color: var(--deep-red);
+  transition: ease 0.5s;
+}
+
+.footer-col-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-col-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 130px;
+  padding: 5px;
+
+  color: var(--red-100);
+  background-color: var(--deep-red);
+
+  border-radius: 8px;
+
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+.footer-col-btn:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 130px;
+  padding: 5px;
+
+  color: var(--deep-red);
+  background-color: var(--red-100); /*or*/
+  /* background-color: var(--red-200); */
+
+  border-radius: 8px;
+
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+.footer-col-btn-icon {
+  padding: 5px 4px 1px 1px;
+}
+
+.footer-col-btn-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.footer-col-btn-sub-title {
+  font-size: 8px;
+}
+
+.footer-col-btn-title {
+  font-size: 17px;
+}
+
+.footer-col-btn-title:last-child {
+  font-size: 16px;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 50px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col-text {
+  position: relative;
+  font-size: 18px;
+}
+
+.asterisk-on-top {
+  position: absolute;
+
+  top: -5px;
+  right: -10px;
+  color: var(--deep-red);
+  transform: scale(0.8);
+}
+
+.footer-col-sub-text {
+  position: relative;
+}
+
+.asterisk-on-mid {
+  position: absolute;
+
+  top: 0px;
+  left: -10px;
+  color: var(--deep-red);
+  transform: scale(1.7);
+}
+
+.footer-col-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* gap: 15px; */
+}
+
+.footer-col-row-block {
+  width: fit-content;
+  height: fit-content;
+}
+
+.card-logo-size {
+  width: 100px;
+  transform: scale(0.5);
+}
+
+.footer-lang-and-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+
+  padding: 30px 0;
+}
+
+.footer-lang {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+
+  border-radius: 8px;
+
+  color: var(--red-100);
+  background-color: teal;
+}
+
+.footer-lang-flag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

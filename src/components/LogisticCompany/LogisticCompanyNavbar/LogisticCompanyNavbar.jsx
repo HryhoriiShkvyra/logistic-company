@@ -1,10 +1,10 @@
 import React from "react";
-import "./NovaPostNavbar.css";
+import "./LogisticCompanyNavbar.css";
 import { NavLink } from "react-router";
 
 import ExitToAppRoundedIcon from "@mui/icons-material/ExitToAppRounded";
 
-function NovaPostNavbar() {
+function LogisticCompanyNavbar() {
   return (
     <div className="nova-post-navbar">
       <div className="nova-post-navbar-block">
@@ -50,4 +50,4 @@ function NovaPostNavbar() {
   );
 }
 
-export default NovaPostNavbar;
+export default LogisticCompanyNavbar;
