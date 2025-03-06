@@ -12,8 +12,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function LogisticCompanyFooter() {
   return (
-    <div className="container">
-      <div className="footer">
+    <div className="footer">
+      <div className="container">
         <div className="footer-rows">
           <div className="footer-row">
             <div className="footer-cols">
@@ -194,7 +194,7 @@ function LogisticCompanyFooter() {
             </div>
           </div>
 
-          <div className="footer-bottom-block">
+          <div className="footer-bottom">
             <h4>
               site based on -{" "}
               <a href="https://www.novapost.com" target="_blank">
