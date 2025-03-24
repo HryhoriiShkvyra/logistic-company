@@ -197,7 +197,11 @@ function LogisticCompanyFooter() {
           <div className="footer-bottom">
             <h4>
               site based on -{" "}
-              <a href="https://www.novapost.com" target="_blank">
+              <a
+                href="https://www.novapost.com"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Nova Post
               </a>
             </h4>
